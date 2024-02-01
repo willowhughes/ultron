@@ -7,7 +7,7 @@ There are 2 additional registers for the PC (program counter) and the AC (accumu
 I created a RISC like instruction set for ultron to run programs with called U <br>
 Each instuction in U has 4 digits.The first 2 is the operation <br>
 Here are the operations's encodings: <br>
-  -define READ      10    // read word from input to memory <br>
+&emsp-define READ      10    // read word from input to memory <br>
   -define WRITE     11    // write word from memory to screen <br>
   -define LOAD      20    // load word from memory into accumulator <br>
   -define STORE     21    // store word from accumulator into memory <br>
