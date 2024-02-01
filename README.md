@@ -26,8 +26,7 @@ to get started there are a few programs already written to be run within the dir
 &emsp;-example3.u prints the larger of two integer inputs <br>
 &emsp;-program.u prints the input - 1 <br>
 &emsp;-ultron.u accepts an input and prints a countdown to 0. <br>
-&emsp;&emsp;&emsp;This is especially interesting to disect because the only branch operation branches if the value in the ac is <br>&emsp;&emsp;&emsp;negative... <br>
-&emsp;&emsp;&emsp;...which makes ultron.u particularly complex. This goes to show how much you can do with only 8 operations in a &emsp;&emsp;&emsp;computer <br>
+&emsp;&emsp;&emsp;This is especially interesting to disect because the only branch operation branches if the value in the ac is <br>&emsp;&emsp;&emsp;negative, which makes ultron.u particularly complex. This goes to show how much you can do with only 8 operations in a &emsp;&emsp;&emsp;computer <br>
 After a program is run, Ultron dumps the memory for debugging! <br>
 
 if you want to write your own program to be ran type in -i [# of lines of instructions/variables you intend on inputing] (default is 32) <br>
