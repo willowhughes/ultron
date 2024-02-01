@@ -4,8 +4,8 @@ Here is Ultron, my software based simulation of a computer in C
 Ultron's memory consists of 32 integer registers/memory locations that are used to hold instructions and variables
 There are 2 additional registers for the PC (program counter) and the AC (accumulator)
 
-I created a RISC like instruction set for ultron to run programs with called U
-each instuction in U has 4 digits.The first 2 is the operation
+I created a RISC like instruction set for ultron to run programs with called U <br>
+each instuction in U has 4 digits.The first 2 is the operation <br>
 Here are the operations's encodings:
   -define READ      10    // read word from input to memory
   -define WRITE     11    // write word from memory to screen
