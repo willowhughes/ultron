@@ -1,5 +1,5 @@
 # ultron
-Here is Ultron, my software based simulation of a computer in C
+My software based simulation of a computer in C, featuring its own language U, a RISC 
 
 Ultron's memory consists of 32 integer registers/memory locations that are used to hold instructions and variables
 There are 2 additional registers for the PC (program counter) and the AC (accumulator) <br>
