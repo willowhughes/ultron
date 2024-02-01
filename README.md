@@ -22,12 +22,12 @@ To compile the program in a linux terminal type make <br>
 To run it you type in ./ultron [-i instructions] [-f filename] <br>
 you can write a program in a .u text file and run it with the .u flag <br>
 to get started there are a few programs already written to be run within the directory <br>
-  -example2.u adds to integer inputs together <br>
-  -example3.u prints the larger of two integer inputs <br>
-  -program.u prints the input - 1 <br>
-  -ultron.u accepts an input and prints a countdown to 0. <br>
-      This is especially interesting to disect because the only branch operation branches if the value in the ac is <br>           negative... <br>
-      ...which makes ultron.u particularly complex. This goes to show how much you can do with only 8 operations in a 
+&emsp;-example2.u adds to integer inputs together <br>
+&emsp;-example3.u prints the larger of two integer inputs <br>
+&emsp;-program.u prints the input - 1 <br>
+&emsp;-ultron.u accepts an input and prints a countdown to 0. <br>
+&emsp;&emsp;This is especially interesting to disect because the only branch operation branches if the value in the ac is <br>           negative... <br>
+&emsp;&emsp;...which makes ultron.u particularly complex. This goes to show how much you can do with only 8 operations in a 
       computer <br>
 After a program is run, Ultron dumps the memory for debugging! <br>
 
