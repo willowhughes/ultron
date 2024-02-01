@@ -7,14 +7,14 @@ There are 2 additional registers for the PC (program counter) and the AC (accumu
 I created a RISC like instruction set for ultron to run programs with called U <br>
 Each instuction in U has 4 digits.The first 2 is the operation <br>
 Here are the operations's encodings: <br>
-&emsp-define READ      10    // read word from input to memory <br>
-  -define WRITE     11    // write word from memory to screen <br>
-  -define LOAD      20    // load word from memory into accumulator <br>
-  -define STORE     21    // store word from accumulator into memory <br>
-  -define ADD       30    // add to accumulator from value in memory <br>
-  -define SUBTRACT  31    // subtract from accumulator the value in memory <br>
-  -define BRANCHNEG 40    // if accumulator is negative, branch to memory location <br>
-  -define HALT      43    // stop executing <br>
+&emsp;-define READ      10    // read word from input to memory <br>
+&emsp;-define WRITE     11    // write word from memory to screen <br>
+&emsp;-define LOAD      20    // load word from memory into accumulator <br>
+&emsp;-define STORE     21    // store word from accumulator into memory <br>
+&emsp;-define ADD       30    // add to accumulator from value in memory <br>
+&emsp;-define SUBTRACT  31    // subtract from accumulator the value in memory <br>
+&emsp;-define BRANCHNEG 40    // if accumulator is negative, branch to memory location <br>
+&emsp;-define HALT      43    // stop executing <br>
 last 2 digits is the operand or the location in memory of which the operaton applies <br>
 
 # Running Ultron <br>
