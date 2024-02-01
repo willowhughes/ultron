@@ -7,14 +7,16 @@ There are 2 additional registers for the PC (program counter) and the AC (accumu
 I created a RISC like instruction set for ultron to run programs with called U <br>
 Each instuction in U has 4 digits.The first 2 is the operation <br>
 Here are the operations's encodings: <br>
-&emsp;-define READ      10    // read word from input to memory <br>
-&emsp;-define WRITE     11    // write word from memory to screen <br>
-&emsp;-define LOAD      20    // load word from memory into accumulator <br>
-&emsp;-define STORE     21    // store word from accumulator into memory <br>
-&emsp;-define ADD       30    // add to accumulator from value in memory <br>
-&emsp;-define SUBTRACT  31    // subtract from accumulator the value in memory <br>
-&emsp;-define BRANCHNEG 40    // if accumulator is negative, branch to memory location <br>
-&emsp;-define HALT      43    // stop executing <br>
+
+&emsp;-define READ&emsp;     10    // read word from input to memory <br>
+&emsp;-define WRITE&emsp;     11    // write word from memory to screen <br>
+&emsp;-define LOAD&emsp;      20    // load word from memory into accumulator <br>
+&emsp;-define STORE&emsp;     21    // store word from accumulator into memory <br>
+&emsp;-define ADD&emsp;       30    // add to accumulator from value in memory <br>
+&emsp;-define SUBTRACT&emsp;  31    // subtract from accumulator the value in memory <br>
+&emsp;-define BRANCHNEG&emsp; 40    // if accumulator is negative, branch to memory location <br>
+&emsp;-define HALT&emsp;      43    // stop executing <br>
+
 last 2 digits is the operand or the location in memory of which the operaton applies <br>
 
 # Running Ultron <br>
@@ -27,6 +29,7 @@ to get started there are a few programs already written to be run within the dir
 &emsp;-program.u prints the input - 1 <br>
 &emsp;-ultron.u accepts an input and prints a countdown to 0. <br>
 &emsp;&emsp;&emsp;This is especially interesting to disect because the only branch operation branches if the value in the ac is <br> &emsp;&emsp;&emsp;negative, which makes ultron.u particularly complex. This goes to show how much you can do with only 8 <br> &emsp;&emsp;&emsp;operations in a computer <br>
+
 After a program is run, Ultron dumps the memory for debugging! <br>
 
 if you want to write your own program to be ran type in -i [# of lines of instructions/variables you intend on inputing] (default is 32) <br>
